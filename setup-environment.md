@@ -24,7 +24,8 @@ Note: To install Apps from Appexchange you need to have the User Permission of â
 
 2. Copy and Paste this URL into the address bar of the browser http://bit.ly/TripApprovalPackage 
 
-1. Click **Create** > **Packages** (left navigation)
+1. Select **Continue** 
+<img src="images/package1.jpg" style="border:none;"/>
 
 1. Click **Edit** and **Continue**
 
