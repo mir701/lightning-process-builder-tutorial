@@ -5,7 +5,7 @@ title: Salesforce Lightning Process Builder Tutorial
 In this tutorial, you use the Lightning Process Builder to build process used to manage a trip approval business process. The process automates multiple notifications and calendar updates triggered by a trip request.
 The process uses an installed custom object with related action to automate a business process.
 
-<img src="images/app-map.png" style="border:none;"/>
+<img src="images/app-map.jpg" style="border:none;"/>
 
 
 ## What You Will Learn
