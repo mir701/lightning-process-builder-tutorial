@@ -11,7 +11,7 @@ We are going to install a basic package that contains the trip request object we
 - Define package access
 
 
-## Step 1: Install the AppExchange Package
+## Install the AppExchange Package
 
 The AppExchange is the world's first on-demand application-sharing service. It provides a way to browse, test drive, share, and install applications developed on Salesforce's on-demand AppExchange platform.
 
@@ -34,40 +34,16 @@ The app we are installing today is a private listing, private listings have not 
 5. Select **Next** on the screen for **Approve Package API Access**
 
 6. Select **Grant access to all users** and select **Next**
+![](images/package3.jpg)
 *For this exercise we will allow full app access to all users. In a production environment it is recommended for most packages that you install packages using the **Select Security Settings** option in order to control security settings by profile.*
 
 7. Select **Install**
 
+8. The Install Complete screen will show.
+![](images/package4.jpg)
 
 
-
-## Step 2: Enable Lightning Components
-
-1. In Setup, click **Develop** > **Lightning Components**
-
-1. Check the **Enable Lightning Components** checkbox
-
-    ![](images/enable-lightning.jpg)
-
-1. Click **Save**
-
-
-## Step 3: Upload Bootstrap as a Static Resource
-
-To help you make the application look good, you will use a version of Twitter Bootstrap customized to match the [Salesforce1 guideline](http://sfdc-styleguide.herokuapp.com/).
-
-1. Download and unzip the Salesforce Foundation Bootstrap [here](http://developer.salesforcefoundation.org/bootstrap-sf1/)
-
-1. In Salesforce, click **Setup** > **Build** > **Develop** > **Static Resources**
-
-1. Click **New**
- 
-1. Specify **bootstrap** as the **Name**, then click the **Choose File** button, and select the **bootstrap.css** in the **dist/css** directory of the unzipped bootstrap folder
-
-    ![](images/static-resource.jpg)
-
-
-1. Click **Save**
+You just installed an umanaged package into your test environment! Now we can build a process using this existing package to further automate the business process. 
 
 
 <div class="row" style="margin-top:40px;">
