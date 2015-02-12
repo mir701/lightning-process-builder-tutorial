@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Salesforce Developer Workshop
+title: Salesforce Lightning Process Builder Tutorial
 ---
-In this tutorial, you use the Lightning Components to build an application called QuickContacts. The application provides quick access to your Salesforce Contacts.
+In this tutorial, you use the Lightning Process Builder to build an application to manage trip requests. The process enables you to build out business automation .
 The Lightning Application uses three Lightning Components: SearchBar, ContactList, and ContactDetails. These components communicate using Lightning events.
 
 <img src="images/app-map.png" style="border:none;"/>
