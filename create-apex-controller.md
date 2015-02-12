@@ -1,9 +1,16 @@
 ---
 layout: module
-title: Module 3&#58; Creating the ContactController Class
+title: Module 3&#58; Building a Lightning Process
 ---
 
-Lightning applications make it easy to work with data. In this module, you create an Apex controller that allows your Lightning application to retrieve contacts, or to search contacts by name or by id.
+We are going to begin building a process to manage trip approvals in this org. We have a number of business  requirements we would like to implement in this process. All trips under $3000 are considered a small trip and should go through a specific process tied to that. 
+
+## Process Goals
+- Trip request should be routed for approval
+- Trip details should be shared within the employee travel community to foster collaboration
+- Calendar of trip creator should be updated automatically
+- Available for mobile employees
+
 
 ## What you will learn
 - Create an Apex Controller that exposes data and logic to the client application
