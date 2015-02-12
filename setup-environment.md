@@ -18,22 +18,27 @@ The AppExchange is the world's first on-demand application-sharing service. It p
 Partners, developers, and anyone else who chooses to participate can offer their Apps on the AppExchange directory. This directory gives Salesforce users an easy way to find and install applications to expand their use of the AppExchange platform to new areas of customer relationship management (CRM) and beyond.
 The app we are installing today is a private listing, private listings have not undergone the Salesforce security review process and should be installed only from trusted providers. 
 
-Note: To install Apps from Appexchange you need to have the User Permission of “Download AppExchange Packages”.  System administrators have this permission enabled by default, but if other users would like to install packages they may need to contact the system administrator for their org. 
+*Note: To install Apps from Appexchange you need to have the User Permission of “Download AppExchange Packages”.  System administrators have this permission enabled by default, but if other users would like to install packages they may need to contact the system administrator for their org.*
 
 1. Login to your Salesforce Developer Edition
 
 2. Copy and Paste this URL into the address bar of the browser http://bit.ly/TripApprovalPackage 
 
-3. Select **Continue** 
+3. This screen will display all the components contained in this package that will be installed into your environment. Take a moment to read the types and names of elements being installed, this information can always be revisited for installed packages by navigating to **Setup|Installed Packages and viewing the details for a specific package.  
+*Some package items, such as validation rules, record types, or custom settings might not appear in the Package Components list but are included in the package and installed with the other items. If there are no items in the Package Components list, the package might contain only minor changes.*
+![](images/package2.jpg)
+
+4. Select **Continue** 
 ![](images/package1.jpg)
 
-1. Click **Edit** and **Continue**
+5. Select **Next** on the screen for **Approve Package API Access**
 
-1. Enter the namespace prefix you want to register, and click **Check Availability**. If the namespace you entered is not available, try again until you find a namespace that is available.
+6. Select **Grant access to all users** and select **Next**
+*For this exercise we will allow full app access to all users. In a production environment it is recommended for most packages that you install packages using the **Select Security Settings** option in order to control security settings by profile.*
 
-1. Click **Review My Selections**
+7. Select **Install**
 
-1. Click **Save**
+
 
 
 ## Step 2: Enable Lightning Components
