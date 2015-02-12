@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 3&#58; Building a Lightning Process
+title: Module 3&#58; Create a new Lightning Process
 ---
 
 We are going to begin building a process to manage trip approvals in this org. We have a number of business  requirements we would like to implement in this process. All trips under $3000 are considered a small trip and should go through a specific process tied to that. 
@@ -13,16 +13,29 @@ We are going to begin building a process to manage trip approvals in this org. W
 
 
 ## What you will learn
-- Build a new Lightning Process using a custom object. 
+- Create a new Lightning Process. 
 
 
-## Step 1: 
+##Create Process: 
 
 1. In the setup navigation bar to the left of your setup screen, navigate to **Build|Workflow&Approvals|Process Builder**
 
-2. Click on *Process Builder* and you will see the splash screen welcoming you to the Process Builder. 
+2. Click on **Process Builder** and you will see the splash screen welcoming you to the Process Builder. Select **New** to begin building a new process.  
   ![](images/process1.jpg)
     
+
+3. Fill our your process details 
+- Name: **Trip Request Process**
+- API Name: **Trip_Request_Process_
+- Description: **Process to manage new trip requests**
+- Click **Save**
+  ![](images/process2.jpg)
+
+
+
+
+
+You have just created a new Lightning Process! Now we need to define where and when this process should run. 
 
 
 

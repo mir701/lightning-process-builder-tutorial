@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 4&#58; Creating the Lightning Application
+title: Module 4&#58; Add Process Object and Criteria
 ---
 
 In this module, you create the QuickContacts Lightning Application and you use Bootstrap to define a basic layout for the application.
@@ -17,29 +17,7 @@ In this module, you create the QuickContacts Lightning Application and you use B
 
 2. Implement the application as follows:
 
-    ```
-    <aura:application>
 
-        <link href='/resource/bootstrap/' rel="stylesheet"/>
-
-        <div class="navbar navbar-default navbar-static-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="#" class="navbar-brand">Lightning Contacts</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    Contact list goes here
-                </div>
-            </div>
-        </div>
-
-    </aura:application>
-    ```
 
     ### Code Highlights:
     - The **link** tag references the bootstrap style sheet uploaded as a static resource in [module 2](setup-environment.html)
