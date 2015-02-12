@@ -3,12 +3,12 @@ layout: module
 title: Module 2&#58; Setting Up Your Environment
 ---
 
-In this module, you set up your environment to enable Lightning development.
+We are going to install a basic package that contains the trip request object we are building a process for. 
 
 ## What you will learn
-- Create a Namespace
-- Enable Lightning Components in your Salesforce org
-- Upload Static Resources for use in your Lightning application
+- Install an AppExchange package
+- Review package commponents
+- Define package access
 
 
 ## Step 1: Create a Namespace
