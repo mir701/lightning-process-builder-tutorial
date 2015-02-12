@@ -13,49 +13,17 @@ We are going to begin building a process to manage trip approvals in this org. W
 
 
 ## What you will learn
-- Create an Apex Controller that exposes data and logic to the client application
+- Build a new Lightning Process using a custom object. 
 
 
-## Steps
+## Step 1: 
 
-1. In Salesforce, click your name in the upper right corner of the screen. In the dropdown menu, click **Developer Console**.
+1. In the setup navigation bar to the left of your setup screen, navigate to **Build|Workflow&Approvals|Process Builder**
 
-    ![](images/devconsole.jpg)
+2. Click on *Process Builder* and you will see the splash screen welcoming you to the Process Builder. 
+  ![](images/process1.jpg)
+    
 
-1. In the Developer Console, click **File** > **New** > **Apex Class**. Specify **ContactController** as the class name and click **OK**.
-
-2. Implement the class as follows:
-
-    ```java
-    public with sharing class ContactController {
-
-        @AuraEnabled
-        public static List<Contact> findAll() {
-            return [SELECT id, name, phone FROM Contact LIMIT 50];
-        }
-
-        @AuraEnabled
-        public static List<Contact> findByName(String searchKey) {
-            String name = '%' + searchKey + '%';
-            return [SELECT id, name, phone FROM Contact WHERE name LIKE :name LIMIT 50];
-        }
-
-        @AuraEnabled
-        public static Contact findById(String contactId) {
-            return [SELECT id, name, title, phone, mobilephone, Account.Name
-                        FROM Contact WHERE Id = :contactId];
-        }
-
-
-    }
-    ```
-
-
-    ### Code Highlights:
-    - **ContactController** is a regular controller class with methods to retrieve contacts (findAll),  or to search contacts by name (findByName) or by id (findById).
-    - The **@AuraEnabled** method annotation makes a method available to Lightning applications
-
-1. Click **File** > **Save** to save the file
 
 
 <div class="row" style="margin-top:40px;">
