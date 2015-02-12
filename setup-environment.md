@@ -11,13 +11,18 @@ We are going to install a basic package that contains the trip request object we
 - Define package access
 
 
-## Step 1: Create a Namespace
+## Step 1: Install the AppExchange Package
 
-A namespace is globally unique across all Salesforce organizations. Namespaces are case-insensitive and have a maximum length of 15 alphanumerical characters.
+The AppExchange is the world's first on-demand application-sharing service. It provides a way to browse, test drive, share, and install applications developed on Salesforce's on-demand AppExchange platform.
+
+Partners, developers, and anyone else who chooses to participate can offer their Apps on the AppExchange directory. This directory gives Salesforce users an easy way to find and install applications to expand their use of the AppExchange platform to new areas of customer relationship management (CRM) and beyond.
+The app we are installing today is a private listing, private listings have not undergone the Salesforce security review process and should be installed only from trusted providers. 
+
+Note: To install Apps from Appexchange you need to have the User Permission of “Download AppExchange Packages”.  System administrators have this permission enabled by default, but if other users would like to install packages they may need to contact the system administrator for their org. 
 
 1. Login to your Salesforce Developer Edition
 
-1. Click **Setup** (upper right corner)
+2. Copy and Paste this URL into the address bar of the browser http://bit.ly/TripApprovalPackage 
 
 1. Click **Create** > **Packages** (left navigation)
 
