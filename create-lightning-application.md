@@ -3,12 +3,14 @@ layout: module
 title: Module 4&#58; Add Process Object and Criteria
 ---
 
-In this module, you create the QuickContacts Lightning Application and you use Bootstrap to define a basic layout for the application.
+The process exists, but there is not criteria detailing when and where this process should run. We will add a target object to this process. This object will be where the process criteria will be defined, so for this example we will want to evaluate the process for the custom object we just installed called **Trip Requests**. With the power of the new Lightning Process Builder you are able to execute actions on objects related or unrelated to this original object. 
+
+
 
 ## What you will learn
-- Create a Lightning Application in the Developer Console
-- Use Static Resources in a Lightning Application
-- Preview your Lightning Application in the browser
+- Define Process target object
+- Define when target object should be evaluated
+- Define Process criteria 
 
 
 ## Steps
