@@ -2,36 +2,36 @@
 layout: home
 title: Salesforce Lightning Process Builder Tutorial
 ---
-In this tutorial, you use the Lightning Process Builder to build an application to manage trip requests. The process enables you to build out business automation .
-The Lightning Application uses three Lightning Components: SearchBar, ContactList, and ContactDetails. These components communicate using Lightning events.
+In this tutorial, you use the Lightning Process Builder to build process used to manage a trip approval business process. The process automates multiple notifications and calendar updates triggered by a trip request.
+The process uses an installed custom object with related action to automate a business process.
 
 <img src="images/app-map.png" style="border:none;"/>
 
 
 ## What You Will Learn
 
-- Enable Lightning Components in your Salesforce org
-- Create an Apex Controller that exposes data and logic to Lightning Applications
-- Create a Lightning Application
-- Create Lightning Components
-- Create Lightning Events
-- Communicate between Lightning Components using Lightning Events
-- Use Static Resources in a Lightning Application
+- Install a private AppExchange package 
+- Create a custom lightning process
+- Automate a chatter post
+- Use the process builder to create and update an unrelated record
+- Activate a lightning process
+- Test the lightning process in a mobile environment
 
 
 
 ## Browser Requirements
 
-The following browsers are supported when working with the Developer Console:
+The following browsers are supported when working with Salesforce:
 
   - Most recent version of Google Chrome
   - Most recent version of Mozilla Firefox
   - Most recent version of Safari
-  - Internet Explorer 9 or higher
+  - Internet Explorer 7 or higher
+  - Additional browser support detailed [here](https://help.salesforce.com/apex/HTViewHelpDoc?id=getstart_browser_overview.htm)
 
 ## Issues
 
-- Please create an issue [here](https://github.com/ccoenraets/salesforce-lightning-tutorial/issues) if you run
+- Please create an issue [here](https://github.com/leeanndroid/LightningProcessBuilder/issues) if you run
 into any problem or if you have a suggestion to improve this workshop.
 - You can also use the Comments section at the bottom of each module to ask a question or report a problem.
 
