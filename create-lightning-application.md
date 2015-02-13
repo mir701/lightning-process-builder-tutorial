@@ -32,7 +32,7 @@ For example, your sales review process includes multiple steps, approvals, notif
 
 
 ## Step 2: Define the Criteria
-Now that we have determined *Where* the process will evaluate, we need to define *when* this process should run. Notice you have the ability to create multiple action paths based on True/False criteria. For this tutorial we will be creating one process path with immediate actions, but using the Lightning Process Builder you can create multiple different criteria as well as subsequent immediate and scheduled actions. 
+Now that we have determined *Where* the process will evaluate, we need to define *When* this process should run. Notice you have the ability to create multiple action paths based on True/False criteria. For this tutorial we will be creating one process path with immediate actions, but using the Lightning Process Builder you can create multiple different criteria as well as subsequent immediate and scheduled actions. 
 
 1. Select **Add Criteria** in your Process Builder Screen 
 2. Define Criteria details
@@ -40,7 +40,19 @@ Now that we have determined *Where* the process will evaluate, we need to define
 *This name appears on the canvas to help you distinguish the criteria and its action group from the other criteria and action groups in the process.*
 - Criteria for Executing Actions: **Filter Conditions Are Met**
 *You can define criteria using conditions with existing operators, formulas, or just execute the process actions without any criteria* 
+- Filter Condition: Trip_Request__c.Airfare_Cost__c  is Greater than $500 
+- Filter Conditions: **All of the conditions are met**
+- Check the **Yes** Checkbox to execute the actions only when specified changes are made. This means the actions are executed only if the record meets the criteria now but the values that the record had immediately before it was saved didn't meet criteria. This means that these actions won't be executed when irrelevant changes are made.
 
+
+![](images/object3.jpg)
+
+
+3. Click **Save**
+
+
+
+You have now defined when and where this process should run, now time to define what actions should execute!
 
 
 
