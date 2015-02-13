@@ -3,17 +3,18 @@ layout: module
 title: Module 7&#58; Test in Mobile 
 ---
 
-In this module, you test the new, active process in the mobile environment. 
+In this module, you test the new, active process in the mobile environment. This is useful when building mobile apps in salesforce production and test environments, as it allows you to see the mobile experience that your end users will have. For this example you can either use the Chrome desktop browser on your computer in a mobile view, or you can use the Salesforce1 Mobile app in your smartphone. Instructions will be provided for both and you can do either you choose or both. 
+
 
 ## What you will learn
 
-- How to test salesforce development for mobile users
+- How to test salesforce development for mobile users using either the Chrome browser or the Salesforce1 Mobile App. 
 
 
 
-## Step 1: Switch to Mobile View
+## Step 1: Switch to Chrome Mobile View
 
-1. In the Developer Console, click **File** > **New** > **Lightning Component**. Specify **ContactDetails** as the bundle name and click **Submit**
+1. In your salesforce environment, take a look at the URL address in the browser. 
 
 
 
