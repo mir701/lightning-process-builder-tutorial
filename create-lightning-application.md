@@ -43,12 +43,12 @@ Now that we have determined *Where* the process will evaluate, we need to define
 - Filter Condition: Trip_Request__c.Airfare_Cost__c  is Greater than $500 
 - Filter Conditions: **All of the conditions are met**
 - Check the **Yes** Checkbox to execute the actions only when specified changes are made. This means the actions are executed only if the record meets the criteria now but the values that the record had immediately before it was saved didn't meet criteria. This means that these actions won't be executed when irrelevant changes are made.
-
+3. Click **Save**
 
 ![](images/object3.jpg)
 
 
-3. Click **Save**
+
 
 
 
