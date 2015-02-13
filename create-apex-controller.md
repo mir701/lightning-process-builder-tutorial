@@ -1,9 +1,9 @@
 ---
 layout: module
-title: Module 3&#58; Create a new Lightning Process
+title: Module 3&#58; Create a New Lightning Process
 ---
 
-We are going to begin building a process to manage trip approvals in this org. We have a number of business  requirements we would like to implement in this process. All trips under $3000 are considered a small trip and should go through a specific process tied to that. 
+We are going to begin building a process to manage trip approvals in this org. We have a number of business  requirements we would like to implement in this process. All trips over $500 should go through a specific process tied to that. 
 
 ## Process Goals
 - Trip request should be routed for approval
