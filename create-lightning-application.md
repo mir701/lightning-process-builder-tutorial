@@ -22,7 +22,8 @@ The process exists, but there is not criteria detailing when and where this proc
 2. All of our standard and custom objects are available to select, including the object just installed with the AppExchange package. We want to Select the **Trip Request** object. 
 3. Because we want to evaluate all elligible trip requests, even ones that were edited after creation, we select the option: 
     - Start the process: **When a record is created or edited** 
-4. Leave the **Allow process to evaluate a record multiple times in a single transaction?** checkbox **Unchecked** 
+4. Leave the checkbox **Unchecked** 
+
 *Note: If you select yes, the process can evaluate the same record up to five additional times in a single transaction. It might reevaluate the record because a process, workflow rule, or flow updated the record in the same transaction.
 For example, your sales review process includes multiple steps, approvals, notifications, and fields that need to be updated. Some of these changes may be part of your process, or they may be managed by other workflow rules or flows in your organization. If you allow the Process Builder to reevaluate a record multiple times in a single transaction, you can manage and evaluate all of these changes—even changes from other processes—in a single transaction in your process.* 
 5. Select **Save**
@@ -31,6 +32,14 @@ For example, your sales review process includes multiple steps, approvals, notif
 
 
 ## Step 2: Define the Criteria
+Now that we have determined *Where* the process will evaluate, we need to define *when* this process should run. Notice you have the ability to create multiple action paths based on True/False criteria. For this tutorial we will be creating one process path with immediate actions, but using the Lightning Process Builder you can create multiple different criteria as well as subsequent immediate and scheduled actions. 
+
+1. Select **Add Criteria** in your Process Builder Screen 
+2. Define Criteria details
+- Criteria Name: **New Trip** 
+*This name appears on the canvas to help you distinguish the criteria and its action group from the other criteria and action groups in the process.*
+- Criteria for Executing Actions: **Filter Conditions Are Met**
+*You can define criteria using conditions with existing operators, formulas, or just execute the process actions without any criteria* 
 
 
 
