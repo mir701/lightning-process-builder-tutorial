@@ -16,7 +16,7 @@ We are going to begin building a process to manage trip approvals in this org. W
 - Create a new Lightning Process. 
 
 
-##Create Process: 
+##Create New Process: 
 
 1. In the setup navigation bar to the left of your setup screen, navigate to **Build|Workflow&Approvals|Process Builder**
 
@@ -26,7 +26,7 @@ We are going to begin building a process to manage trip approvals in this org. W
 
 3. Fill our your process details 
 - Name: **Trip Request Process**
-- API Name: **Trip_Request_Process_
+- API Name: **Trip_Request_Process_**
 - Description: **Process to manage new trip requests**
 - Click **Save**
   ![](images/process2.jpg)
