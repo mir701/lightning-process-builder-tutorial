@@ -9,6 +9,7 @@ We are going to install a basic package that contains the trip request object we
 - Install an AppExchange package
 - Review package commponents
 - Define package access
+- Modify Global Action Layout
 
 
 ## Step 1: Install the AppExchange Package
@@ -45,12 +46,13 @@ The app we are installing today is a private listing, private listings have not 
 
 ## Step 2: Modifying the Global layout
 Our process will automate business steps once a user has submitted a trip request. In order to make this process easy for our mobile users, we are going to modify the Actions available on the Salesforce1 Mobile app to include **New Trip**
+
 1. Navigate to Setup | Create | Global Actions | Publisher Layouts
-1. Select **Edit** next to the Global Layout
+2. Select **Edit** next to the Global Layout
 ![](images/layout1.jpg)
-1. Drag the **New Trip** Action onto the layout field, immediately after **post** 
+3. Drag the **New Trip** Action onto the layout field, immediately after **post** 
 ![](images/layout2.jpg)
-1. Select **Save**
+4. Select **Save**
 
 
 
