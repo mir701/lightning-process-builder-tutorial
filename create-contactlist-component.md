@@ -43,7 +43,10 @@ Another business requirement was to automatically update the Salesforce calendar
 4. In order to populate the fields on this new record with information from the Trip Request record, we will use the lookup features in the Process Builder. Select the **Edit** icon in the left side of the Value cell in order to switch to the lookup function. Then select the arrow on the right side of the cell to open up the lookup screen. 
 ![](images/action5.jpg) 
 ![](images/action6.jpg) 
-1. 
+1. Assign values for the new event record based on below screenshot. For the Subject Field do not select a lookup option, instead type in "Travel" to assign this as the subject field for all records created with this action. 
+![](images/action7.jpg) 
+1. Select **Save**
+
 
 
 NEEDS SCREEN SHOT OF EVENT ACTION 
