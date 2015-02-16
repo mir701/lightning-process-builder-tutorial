@@ -15,12 +15,22 @@ In this module, we will add actions to our the process. Using the Lightning Proc
 One of our business requirements is to notify the other travelers in the company about a new trip. We are going to post a notification to the travelers Chatter timeline including details about their trip, as well as a topic hashtag. You can also use Chatter post actions to 
 
 1. In the Immediate Actions element directly to the right of the criteria you just created, Select **Add Action**
+
+ ![](images/action1.jpg)
+
 2. For the Action Type we will select **Post to Chatter**. 
 *Notice the variety of action types you can create here.*
-3. Name this action **Chatter Travel Update*
-1. 
+![](images/action2.jpg)
 
-NEEDS SCREEN SHOT OF CHATTER POST ACTION 
+3. Name this action **Chatter Travel Update*
+1. We want this chatter post to update to the chatter feed of the traveler on this trip, so we will select Post To: **User** , Select a user from a record, and select the record creator User ID. 
+![](images/action3.jpg)
+1. Now that you have defined where the chatter update will post, add text and information to the post. 
+![](images/action4.jpg) 
+
+1. Click **Save**
+
+
 
 
 ## Step 2: Add an Record Creation Action 
@@ -30,7 +40,10 @@ Another business requirement was to automatically update the Salesforce calendar
 2. Select **Create Record**
 3. Name this action "Create Travel Event"
 3. All custom and standard objects are available to select. Select **Event** object
-4. 
+4. In order to populate the fields on this new record with information from the Trip Request record, we will use the lookup features in the Process Builder. Select the **Edit** icon in the left side of the Value cell in order to switch to the lookup function. Then select the arrow on the right side of the cell to open up the lookup screen. 
+![](images/action5.jpg) 
+![](images/action6.jpg) 
+1. 
 
 
 NEEDS SCREEN SHOT OF EVENT ACTION 
