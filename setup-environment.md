@@ -47,12 +47,19 @@ The app we are installing today is a private listing, private listings have not 
 ## Step 2: Modifying the Global layout
 Our process will automate business steps once a user has submitted a trip request. In order to make this process easy for our mobile users, we are going to modify the Actions available on the Salesforce1 Mobile app to include **New Trip**
 
-1. Navigate to Setup | Create | Global Actions | Publisher Layouts
+1. Navigate to **Setup | Create | Global Actions | Publisher Layouts**
 2. Select **Edit** next to the Global Layout
 ![](images/layout1.jpg)
 3. Drag the **New Trip** Action onto the layout field, immediately after **post** 
 ![](images/layout2.jpg)
 4. Select **Save**
+
+
+## Step 3: Create Approval Process 
+In the Lightning Process Builder you can either use a default approval process, or specify an existing process you would like to trigger as part of a process action. Many of our users have existing approval processes in place, and for this tutorial we will show how you can tie a Process to an existing Approval Process. To do this we need to create our approval process for Trip Requests. 
+1. Navigate to ** Setup | Create | Workflow & Approvals | Approval Processes ** 
+2. In the drop down "Manage Approval Processes For" Select **Trip Request**
+3. Select ** Create New Approval Process | Use Jump Start Wizard **
 
 
 
