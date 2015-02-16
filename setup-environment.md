@@ -11,7 +11,7 @@ We are going to install a basic package that contains the trip request object we
 - Define package access
 
 
-## Install the AppExchange Package
+## Step 1: Install the AppExchange Package
 
 The AppExchange is the world's first on-demand application-sharing service. It provides a way to browse, test drive, share, and install applications developed on Salesforce's on-demand AppExchange platform.
 
@@ -43,7 +43,18 @@ The app we are installing today is a private listing, private listings have not 
 ![](images/package4.jpg)
 
 
-You just installed an umanaged package into your test environment! Now we can build a process using this existing package to further automate the business process. 
+## Step 2: Modifying the Global layout
+Our process will automate business steps once a user has submitted a trip request. In order to make this process easy for our mobile users, we are going to modify the Actions available on the Salesforce1 Mobile app to include **New Trip**
+1. Navigate to Setup | Create | Global Actions | Publisher Layouts
+1. Select **Edit** next to the Global Layout
+![](images/layout1.jpg)
+1. Drag the **New Trip** Action onto the layout field, immediately after **post** 
+![](images/layout2.jpg)
+1. Select **Save**
+
+
+
+You just installed an umanaged package into your test environmentand modified the mobile action layout! Now we can build a process using this existing package to further automate the business process. 
 
 
 <div class="row" style="margin-top:40px;">
