@@ -26,7 +26,7 @@ We are going to begin building a process to manage trip approvals in this org. W
 
 3. Fill our your process details 
 - Name: **Trip Request Process**
-- API Name: **"Trip_Request_Process_"**
+- Hit **Tab** to automatically populate the API Name
 - Description: **Process to manage new trip requests**
 - Click **Save**
   ![](images/process2.jpg)
