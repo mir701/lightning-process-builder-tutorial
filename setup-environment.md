@@ -23,7 +23,7 @@ The app we are installing today is a private listing, private listings have not 
 
 1. Login to your Salesforce Developer Edition
 
-2. Copy and Paste this URL into the address bar of the browser http://bit.ly/TripApprovalPackage 
+2. Copy and Paste this URL into the address bar of the browser **http://bit.ly/TripApprovalPackage** 
 
 3. This screen will display all the components contained in this package that will be installed into your environment. Take a moment to read the types and names of elements being installed, this information can always be revisited for installed packages by navigating to **Setup|Installed Packages and viewing the details for a specific package.  
 *Some package items, such as validation rules, record types, or custom settings might not appear in the Package Components list but are included in the package and installed with the other items. If there are no items in the Package Components list, the package might contain only minor changes.*
@@ -36,7 +36,7 @@ The app we are installing today is a private listing, private listings have not 
 
 6. Select **Grant access to all users** and select **Next**
 ![](images/package3.jpg)
-*For this exercise we will allow full app access to all users. In a production environment it is recommended for most packages that you install packages using the **Select Security Settings** option in order to control security settings by profile.*
+For this exercise we will allow full app access to all users. In a production environment it is recommended for most packages that you install packages using the **Select Security Settings** option in order to control security settings by profile.
 
 7. Select **Install**
 
@@ -70,10 +70,17 @@ In the Lightning Process Builder you can either use a default approval process, 
 1. To create the Approval process we need to create a new user. 
 1. Navigate to ** Setup | Create | Workflow & Approvals | Approval Processes ** 
 1. In the drop down "Manage Approval Processes For" Select **Trip Request**
-1. Select ** Create New Approval Process | Use Jump Start Wizard **
+1. Select **Create New Approval Process | Use Jump Start Wizard**
+1. Fill out the new approval process per the image below. 
+- Name: Trip Approval Rule
+- Add the Approval History related list to all Trip Request page layouts: Checked
+- Expected Total Cost is greater than 500
+- Automatically Assign to **Jennifer Manager** for approver
 ![](images/approval1.jpg)
 1. Select **Save**
+1. Select **View Approval Process Detail Page**
 1. On your approval process view select **Activate** 
+1. Select **Ok**
 
 
 You just installed an umanaged package into your test environmentand modified the mobile action layout! Now we can build a process using this existing package to further automate the business process. 
