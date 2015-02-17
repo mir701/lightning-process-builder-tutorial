@@ -17,6 +17,7 @@ Here are a few things you can do next:
 - Follow the latest updates around Salesforce automation by joining the <a href="https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F9300000001rzc" target="_blank">Success Community Workflow Automation Group</a>
 - Already familiar with Lightning Process Builder? Check out the <a href="http://docs.releasenotes.salesforce.com/en-us/spring15/release-notes/rn_forcecom_process.htm?edition=&impact=" target="_blank">Process Builder Spring '15 Release Notes</a>
 - Useful grid comparing when to use which Salesforce automation tool <a href="https://help.salesforce.com/HTViewHelpDoc?id=process_which_tool.htm&language=en_US" target="_blank">Which Automation Tool Should I Use?</a>
+- <a href="https://www.salesforce.com/us/developer/docs/apexcode/Content/apex_triggers_order_of_execution.htm" target="_blank">Triggers and Order of Execution</a>
 
 
 <div class="row" style="margin-top:40px;">
