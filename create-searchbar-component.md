@@ -14,12 +14,17 @@ You can’t activate a process unless it has:
 ##Activate The Process
 
 1. In the upper right hand corner of your Process Builder screen, Click **Activate**.
+![](images/activate1.jpg)
+
+2. You will see a warning regarding process activation, click **Ok**
+*If you activate a version of a process that already has an active version, the previously active version is automatically deactivated. To see that version later, refer to the process’s version history.*
+![](images/activate2.jpg)
 
 
-
-If you activate a version of a process that already has an active version, the previously active version is automatically deactivated. To see that version later, refer to the process’s version history.
-After you’ve activated your process, consider creating or editing test records that will start the process to make sure it’s working correctly. If you do, remember to delete those test records or return them to their previous values once you’ve confirmed that your process works as designed.
 If you later want Salesforce to stop using a process to evaluate records as they’re created or edited, open the active process and click Deactivate.
+
+
+Your process is now active! Time to test it out. 
 
 
 
