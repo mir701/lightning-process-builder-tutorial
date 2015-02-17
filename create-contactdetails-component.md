@@ -19,11 +19,13 @@ If you are unable to use Chrome or access the Salesforce1 Mobile app on a smartp
 
 1. If you are not already, login to your salesforce environment in the Chrome browser. Take a look at the URL address in the browser. 
 2. Add /one/one.app to the end of your URL of the domain your Salesforce instance is on. If your Developer Edition is located on na15, meaning when you log in you URL looks something like https://na15.salesforce.com/home/home.jsp. To navigate to the Salesforce1 mobile app view, change the /home/home.jsp to /one/one.app. 
+![](images/url.jpg)
+Your screen will now show the Salesforce mobile view. 
 ![](images/mobile1.jpg)
 
 
-You can resize your browser window now to a smaller size, more similar to a mobile screen. 
-
+3. You can resize your browser window now to a smaller size, more similar to a mobile screen. 
+![](images/screen1.jpg)
 
 ## Step 2: Create new Trip Request
 When we setup our environment, we added a custom action for new trip request to the global layout. This allows all our mobile users to have access to this action from their mobile screen. We will now use this action to create a new trip request and test our new Lightning Process. 
