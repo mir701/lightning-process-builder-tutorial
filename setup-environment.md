@@ -67,7 +67,6 @@ In order to have an approval process, we will need a user to designate as the ap
 In the Lightning Process Builder you can either use a default approval process, or specify an existing process you would like to trigger as part of a process action. Many of our users have existing approval processes in place, and for this tutorial we will show how you can tie a Process to an existing Approval Process. To do this we need to create our approval process for Trip Requests. 
 
 
-1. To create the Approval process we need to create a new user. 
 1. Navigate to ** Setup | Create | Workflow & Approvals | Approval Processes ** 
 1. In the drop down "Manage Approval Processes For" Select **Trip Request**
 1. Select **Create New Approval Process | Use Jump Start Wizard**
