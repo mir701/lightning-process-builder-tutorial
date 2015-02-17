@@ -29,7 +29,7 @@ You can resize your browser window now to a smaller size, more similar to a mobi
 When we setup our environment, we added a custom action for new trip request to the global layout. This allows all our mobile users to have access to this action from their mobile screen. We will now use this action to create a new trip request and test our new Lightning Process. 
 
 1. In the bottom of your mobile view, there is an action bar containing the icons for your mobile actions. Select the helicopter icon for the **New Trip** action. 
-![](images/mobile2.jpg)
+![](images/Mobile2.jpg)
 
 
 ## Step 3: Review Process Results 
