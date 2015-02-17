@@ -34,7 +34,7 @@ The following browsers are supported when working with Salesforce:
 
 ## Issues
 
-- Please create an issue <a href="https://github.com/leeanndroid/LightningProcessBuilder/issues" target="_blank">Here</a> if you run
+- Please create an issue <a href="https://github.com/leeanndroid/LightningProcessBuilder/issues" target="_blank">here</a> if you run
 into any problem or if you have a suggestion to improve this workshop.
 - You can also use the Comments section at the bottom of each module to ask a question or report a problem.
 
