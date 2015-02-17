@@ -15,6 +15,7 @@ Here are a few things you can do next:
 
 - Check out [developer.salesforce.com](https://developer.salesforce.com/lightning) to explore additional resources
 - Follow the latest updates around Salesforce automation by joining the Success Community chatter group! [Success Community Workflow Automation Group](https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F9300000001rzc)
+- Already familiar with Lightning Process Builder? Check out the [ Process Builder Spring '15 Release Notes] (http://docs.releasenotes.salesforce.com/en-us/spring15/release-notes/rn_forcecom_process.htm?edition=&impact=)'
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
