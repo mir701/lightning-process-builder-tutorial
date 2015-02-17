@@ -56,7 +56,6 @@ Our final and most important business requirement is to submit the new Trip Requ
 1. Click on **Add Action**
 2. Action Type **Submit for Approval**
 1. Select the existing approval process already built called **Trip Approval Rule**
-
 ![](images/approval2.jpg) 
 1. **Save**
 
