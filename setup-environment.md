@@ -56,6 +56,7 @@ Our process will automate business steps once a user has submitted a trip reques
 
 ## Step 3: Create User
 In order to have an approval process, we will need a user to designate as the approver. 
+
 1. **Setup | Manage User | New User **
 2. Create a new User for **Jennifer Manager** 
 
