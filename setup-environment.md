@@ -71,6 +71,8 @@ In the Lightning Process Builder you can either use a default approval process, 
 1. In the drop down "Manage Approval Processes For" Select **Trip Request**
 1. Select ** Create New Approval Process | Use Jump Start Wizard **
 ![](images/approval1.jpg)
+1. Select **Save**
+1. On your approval process view select **Activate** 
 
 
 You just installed an umanaged package into your test environmentand modified the mobile action layout! Now we can build a process using this existing package to further automate the business process. 
