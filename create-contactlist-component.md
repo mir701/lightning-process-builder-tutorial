@@ -52,11 +52,14 @@ Another business requirement was to automatically update the Salesforce calendar
 
 ## Step 3: Add an Approval Action  
 Our final and most important business requirement is to submit the new Trip Request for Approval. Using the Lighting Process Builder you can either trigger an existing approval process built using approvals, or you can select Default approval process and rely on the system approver fields. For this exercise we have an existing approval process built that we will select. 
+
 1. Click on **Add Action**
 2. Action Type **Submit for Approval**
-1. 
+1. Select the existing approval process already built called **Trip Approval Rule**
 
-NEEDS SCREEN SHOT OF APPROVAL ACTION 
+![](images/approval2.jpg) 
+1. **Save**
+
 
 
 
