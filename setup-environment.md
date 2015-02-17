@@ -54,15 +54,23 @@ Our process will automate business steps once a user has submitted a trip reques
 ![](images/layout2.jpg)
 4. Select **Save**
 
+## Step 3: Create User
+In order to have an approval process, we will need a user to designate as the approver. 
+1. **Setup | Manage User | New User **
+2. Create a new User for **Jennifer Manager** 
+![](images/user1.jpg)
+3. Select **Save**
 
-## Step 3: Create Approval Process 
+
+## Step 4: Create Approval Process 
 In the Lightning Process Builder you can either use a default approval process, or specify an existing process you would like to trigger as part of a process action. Many of our users have existing approval processes in place, and for this tutorial we will show how you can tie a Process to an existing Approval Process. To do this we need to create our approval process for Trip Requests. 
 
 
+1. To create the Approval process we need to create a new user. 
 1. Navigate to ** Setup | Create | Workflow & Approvals | Approval Processes ** 
 1. In the drop down "Manage Approval Processes For" Select **Trip Request**
 1. Select ** Create New Approval Process | Use Jump Start Wizard **
-
+![](images/approval1.jpg)
 
 
 You just installed an umanaged package into your test environmentand modified the mobile action layout! Now we can build a process using this existing package to further automate the business process. 
