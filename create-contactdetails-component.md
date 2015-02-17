@@ -5,7 +5,7 @@ title: Module 7&#58; Test in Mobile
 
 In this module, you test the new, active process in the mobile environment. This is useful when building mobile apps in salesforce production and test environments, as it allows you to see the mobile experience that your end users will have. For this example you can either use the Chrome desktop browser on your computer in a mobile view, or you can use the Salesforce1 Mobile app in your smartphone. Instructions will be provided for testing in the Chome Mobile view. 
 
-*If you are unable to use Chrome or access the Salesforce1 Mobile app on a smartphone or mobile device, the review can be conducted entirely in the desktop view beginning on the Chatter tab with the **New Trip** Action. *
+If you are unable to use Chrome or access the Salesforce1 Mobile app on a smartphone or mobile device, the review can be conducted entirely in the desktop view beginning on the Chatter tab with the **New Trip** Action. 
 
 
 
@@ -42,6 +42,7 @@ Now that you have created your trip record, click around your mobile environment
 
 
 1. Check your user chatter feed
+
 ![](images/chatter1.jpg)
 2. Check your calendar update action by navigating to the left navigation of your mobile view
 ![](images/chatter2.jpg)
