@@ -31,10 +31,23 @@ When we setup our environment, we added a custom action for new trip request to 
 1. In the bottom of your mobile view, there is an action bar containing the icons for your mobile actions. Select the helicopter icon for the **New Trip** action. 
 ![](images/mobile3.jpg)
 
+2. Create your new trip record. Let's call this trip **San Diego Conference**, and select dates within a few days of today (This will make it easier to check the calendar update action), the cost is $1000 and the location is San Diego. 
+![](images/mobile4.jpg)
+3. Select **Save**
+
+
 
 ## Step 3: Review Process Results 
+Now that you have created your trip record, click around your mobile environment and test the results! 
 
-1. 
+
+1. Check your user chatter feed
+2. Check your calendar update action by navigating to the left navigation of your mobile view and selecting **Events**
+![](images/mobile5.jpg)
+3. Check the approval status on the trip request action by navigating to the left navigation of your mobile view and selecting **Trip Requests**. From here you can view the new record you just created, and the approval details will be included in the related list of this record. 
+
+
+
 
 
 <div class="row" style="margin-top:40px;">
