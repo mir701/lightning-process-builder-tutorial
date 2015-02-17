@@ -3,7 +3,7 @@ layout: module
 title: Module 6&#58; Activate the Process 
 ---
 
-Now that we have created this process, it needs to be activated in order to evaluate new Trip Request records. 
+Now that we have created this process, defined the criteria, and added our immediate process actions, it needs to be activated in order to evaluate new Trip Request records. 
 After you activate a process, you can no longer edit that process. However, you can click Clone to save the process as a new inactive process.
 You can’t activate a process unless it has:
 

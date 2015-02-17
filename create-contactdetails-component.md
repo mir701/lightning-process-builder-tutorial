@@ -42,9 +42,18 @@ Now that you have created your trip record, click around your mobile environment
 
 
 1. Check your user chatter feed
-2. Check your calendar update action by navigating to the left navigation of your mobile view and selecting **Events**
+![](images/chatter1.jpg)
+2. Check your calendar update action by navigating to the left navigation of your mobile view
+![](images/chatter2.jpg)
+3. Then select **Events** Click on the calendar days you populated in your trip request record and confirm the new event records have been created and the calendar is updated. 
 ![](images/mobile5.jpg)
-3. Check the approval status on the trip request action by navigating to the left navigation of your mobile view and selecting **Trip Requests**. From here you can view the new record you just created, and the approval details will be included in the related list of this record. 
+4. Check the approval status on the trip request action by navigating to the left navigation of your mobile view, selecting **Show More** and selecting **Trip Requests**. 
+5. Click into the San Diego record you just created, then click into the **Related** tab of this record, and then  **Approval History** to view the current approval status for this record. 
+
+
+
+Congratulations! In just a few minutes you created a Lightning Process in Salesforce, added multiple actions, and tested for mobile users, all without a single line of code!
+
 
 
 

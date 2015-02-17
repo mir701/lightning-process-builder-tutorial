@@ -36,12 +36,13 @@ One of our business requirements is to notify the other travelers in the company
 ## Step 2: Add an Record Creation Action 
 Another business requirement was to automatically update the Salesforce calendar of the traveler. This calendar is populated using a standard object for Events, so we will want to create a new event record with dates and information that corresponds to the Trip Request that was created. Using the Lightning Process Builder we can create entirely new records, of custom or standard objects, related or unrelated to the primary process object. Related would mean that there were lookup fields or relationships connecting the objects, such as the Account field on the Contact object. This means those objects are related in salesforce. For this step we will be creating a new **Event** record, which is not related to the Trip Request custom object. We will create a new record as well as populate fields on that record based on information in the Trip Request record. 
 
-1. In the same Immediate Actions element where you added the previous action, click on **Add Action**
+1. In the same Immediate Actions node where you added the previous action, click on **Add Action**
 2. Select **Create Record**
 3. Name this action "Create Travel Event"
 3. All custom and standard objects are available to select. Select **Event** object
-4. In order to populate the fields on this new record with information from the Trip Request record, we will use the lookup features in the Process Builder. Select the **Edit** icon in the left side of the Value cell in order to switch to the lookup function. Then select the arrow on the right side of the cell to open up the lookup screen. 
-![](images/action5.jpg) 
+4. In order to populate the fields on this new record with information from the Trip Request record, we will use the lookup features in the Process Builder. Select the **Edit** icon in the left side of the Value cell in order to switch to the lookup function.  
+![](images/action5.jpg)
+1.Then select the arrow on the right side of the cell to open up the lookup screen.
 ![](images/action6.jpg) 
 1. Assign values for the new event record based on below screenshot. For the Subject Field do not select a lookup option, instead type in "Travel" to assign this as the subject field for all records created with this action. 
 ![](images/action7.jpg) 
@@ -55,7 +56,7 @@ Our final and most important business requirement is to submit the new Trip Requ
 
 1. Click on **Add Action**
 2. Action Type **Submit for Approval**
-1. Select the existing approval process already built called **Trip Approval Rule**
+1. Select the **Specific approval process** already built called **Trip Approval Rule**
 ![](images/approval2.jpg) 
 1. **Save**
 
