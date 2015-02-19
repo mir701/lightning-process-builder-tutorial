@@ -26,7 +26,11 @@ One of our business requirements is to notify the other travelers in the company
 1. We want this chatter post to update to the chatter feed of the traveler on this trip, so we will select Post To: **User** , Select a user from a record, and select the record creator User ID. 
 ![](images/action3.jpg)
 1. Now that you have defined where the chatter update will post, add text and information to the post. Use the **Insert Field** area in the message box to include merge fields from the record like Location and Trip Start. 
+text
+\Travel Update! I will be traveling to {![Trip_Request__c].Location__c}  on {![Trip_Request__c].Trip_Start__c}  , let me know if you have any tips about this location! #travel\
+
 ![](images/action4.jpg) 
+
 
 1. Click **Save**
 
