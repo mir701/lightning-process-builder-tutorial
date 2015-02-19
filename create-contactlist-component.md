@@ -27,7 +27,7 @@ One of our business requirements is to notify the other travelers in the company
 ![](images/action3.jpg)
 1. Now that you have defined where the chatter update will post, add text and information to the post. Use the **Insert Field** area in the message box to include merge fields from the record like Location and Trip Start. 
 text
-<pre><code>Travel Update! I will be traveling to {![Trip_Request__c].Location__c}  on {![Trip_Request__c].Trip_Start__c}  , let me know if you have any tips about this location! #travel</code></pre>
+   <pre><code>Travel Update! I will be traveling to {![Trip_Request__c].Location__c}  on {![Trip_Request__c].Trip_Start__c}  , let me know if you have any tips about this location! #travel</code></pre>
 
 ![](images/action4.jpg) 
 
