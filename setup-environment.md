@@ -14,10 +14,10 @@ We are going to install a basic package that contains the trip request object we
 
 ## Step 1: Install the AppExchange Package
 
-The AppExchange is the world's first on-demand application-sharing service. It provides a way to browse, test drive, share, and install applications developed on Salesforce's on-demand AppExchange platform.
+The <a href="https://appexchange.salesforce.com/" target="_blank">AppExchange</a> is the world's first on-demand application-sharing service. It provides a way to browse, test drive, share, and install applications developed on Salesforce's on-demand AppExchange platform.
 
 Partners, developers, and anyone else who chooses to participate can offer their Apps on the AppExchange directory. This directory gives Salesforce users an easy way to find and install applications to expand their use of the AppExchange platform to new areas of customer relationship management (CRM) and beyond.
-The app we are installing today is a private listing, private listings have not undergone the Salesforce security review process and should be installed only from trusted providers. 
+The app we are installing today is a private listing, private listings have not undergone the Salesforce security review process and should be installed only from trusted providers.  More information about installing packages in Salesforce can be found <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=distribution_installing_packages.htm" target="_blank">here</a>
 
 *Note: To install Apps from Appexchange you need to have the User Permission of “Download AppExchange Packages”.  System administrators have this permission enabled by default, but if other users would like to install packages they may need to contact the system administrator for their org.*
 
@@ -57,7 +57,7 @@ Our process will automate business steps once a user has submitted a trip reques
 ## Step 3: Create User
 In order to have an approval process, we will need a user to designate as the approver. 
 
-1. **Setup | Manage User | New User **
+1. **Setup | Manage User | New User**
 2. Create a new User for **Jennifer Manager** 
 
 ![](images/user.jpg)
