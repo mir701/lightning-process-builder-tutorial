@@ -37,13 +37,13 @@ Now that we have determined *Where* the process will evaluate, we need to define
 
 1. Select **Add Criteria** node in your Process Builder Screen 
 2. Define Criteria details
--Criteria Name: **New Trip** 
+     - Criteria Name: **New Trip** 
 *This name appears on the canvas to help you distinguish the criteria and its action group from the other criteria and action groups in the process.*
--Criteria for Executing Actions: **Filter Conditions Are Met**
+     - Criteria for Executing Actions: **Filter Conditions Are Met**
 *You can define criteria using conditions with existing operators, formulas, or just execute the process actions without any criteria* 
--Filter Condition: Trip_Request__c.Airfare_Cost__c  is Greater than $500 
--Filter Conditions: **All of the conditions are met**
-- Check the **Yes** Checkbox to execute the actions only when specified changes are made. This means the actions are executed only if the record meets the criteria now but the values that the record had immediately before it was saved didn't meet criteria. This means that these actions won't be executed when irrelevant changes are made.
+     - Filter Condition: `Trip_Request__c.Expected_Total_Cost__c` is Greater than $500 
+     - Filter Conditions: **All of the conditions are met**
+     - Check the **Yes** Checkbox to execute the actions only when specified changes are made. This means the actions are executed only if the record meets the criteria now but the values that the record had immediately before it was saved didn't meet criteria. This means that these actions won't be executed when irrelevant changes are made.
 3. Click **Save**
 
 ![](images/object3.jpg)
