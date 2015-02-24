@@ -18,17 +18,16 @@ We are going to begin building a process to manage trip approvals in this org. W
 
 ##Create New Process: 
 
-1. In the setup navigation bar to the left of your setup screen, navigate to **Build|Workflow&Approvals|Process Builder**
+1. In the setup navigation bar to the left of your setup screen, navigate to **Build | Workflow&Approvals | Process Builder**
 
 2. Click on **Process Builder** and you will see the splash screen welcoming you to the Process Builder. Select **New** to begin building a new process.  
   ![](images/process1.jpg)
     
+3. Name: **Trip Request Process**
+4. Hit **Tab** to automatically populate the API Name
+5. Description: **Process to manage new trip requests**
 
-3. Fill our your process details 
-- Name: **Trip Request Process**
-- Hit **Tab** to automatically populate the API Name
-- Description: **Process to manage new trip requests**
-- Click **Save**
+6. Click **Save**
   ![](images/process2.jpg)
 
 
